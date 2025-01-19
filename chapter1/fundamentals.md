@@ -92,7 +92,7 @@ $\int_\Omega \nabla u \cdot \nabla v~\mathrm{d} x = \int_\Omega f v~\mathrm{d} x
 
 For the present problem, the trial and test spaces $V$ and $\hat{V}$ are defined as
 \begin{align}
-V&=\{v\in H^1(\Omega) \vert v=u_D&&\text{on } \partial \Omega \},\\
+V&=\{u\in H^1(\Omega) \vert u=u_D&&\text{on } \partial \Omega \},\\
 \hat{V}&=\{v\in H^1(\Omega) \vert v=0 &&\text{on } \partial \Omega \}.
 \end{align}
 In short, $H^1(\Omega)$ is the Sobolev space containing functions $v$ such that $v^2$ and $\vert \nabla v \vert ^2$ have finite integrals over $\Omega$. The solution of the underlying
